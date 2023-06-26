@@ -59,3 +59,12 @@ git push origin main
 ## 3.5 visit
 
 > url: https://cooperzhu.netlify.app
+
+# 4 Local build
+
+```shell
+hugo server --buildDrafts   # start Hugo’s development server (include draft content)
+hugo server -D              # start Hugo’s development server
+hugo                        # Publish the site (the entire static site in the public directory in the root of your project)
+```
+
