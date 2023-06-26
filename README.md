@@ -48,10 +48,14 @@ create a new file at /`netlify.toml`
   HUGO_VERSION = "0.111.3"
 ```
 
-## 3.4 push to Github
+## 3.4 Push to Github
 
 ```shell
 git add -A
 git commit -m 'init project'
-git push
+git push origin main
 ```
+
+## 3.5 visit
+
+> url: https://cooperzhu.netlify.app
